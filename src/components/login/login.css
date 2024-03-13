@@ -1,0 +1,76 @@
+ .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    background-image: url('https://images.pexels.com/photos/3772506/pexels-photo-3772506.jpeg');
+    background-size: cover;}
+    
+  
+  
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    
+    padding-right: 1.2cm;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .signup-btn {
+    background-color: #287428;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    position: relative;
+    right: -2em;
+  }
+  
+  .frm{
+    position: relative;
+    
+    right: -3.5em;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ .signin-btn{
+    position: relative;
+    right: -5.5em;
+    height: 40px;
+    width: 120px;
+    background-color: #0f4279;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+ } 
+ span.password-toggle{
+  position: relative;
+  top:-2.3em;
+  right:-21em;
+ }

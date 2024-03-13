@@ -1,0 +1,71 @@
+
+.bgi{
+    background-image: url('https://img.freepik.com/free-photo/young-hipster-girl-dressed-up-t-shirt-leather-trousers-holding-blank-craft-shopping-bags-with-handles-isolated-white_231208-4954.jpg?w=2000');
+    background-size: cover;
+    height: 740px;
+}
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-right: 1cm;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5); 
+    position: relative;
+    bottom: -12em;
+
+  }
+  .password-icon{
+    position: relative;
+    
+    right: 8.5em;
+    
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  label{
+    text-align: left;
+  }
+  
+  .reg-btn{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 140px;
+  }
+  
+  
+  
